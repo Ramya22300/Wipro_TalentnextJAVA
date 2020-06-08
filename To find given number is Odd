@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+class UserMainCode
+{
+public int countOdds(int input1,int input2,int input3, int input4, int input5)
+{
+int c=0;
+if(input1<0)input1=(-1)*input1; 
+if(input2<0)input2=(-1)*input2; 
+if(input3<0)input3=(-1)*input3; 
+if(input4%2==0)
+c++;
+if(input5%2==0)
+c++;
+}
+return c; 
+}
+}
